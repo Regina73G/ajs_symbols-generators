@@ -17,7 +17,7 @@ export default class Team {
   }
 
   *[Symbol.iterator]() {
-    for (member of this.members) {
+    for (const member of this.members) {
       yield member
     }
   }
